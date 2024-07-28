@@ -1,0 +1,82 @@
+/* ResumeTemplate.css */
+
+.App {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .frame {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    margin-right: 20px;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .header-text h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    color: gray;
+  }
+  
+  .summary {
+    margin-bottom: 10px; /* Adjust the gap between summary and next section */
+  }
+  
+  .summary h3 {
+    margin-bottom: 10px;
+  }
+  
+  .experience-item,
+  .education-item {
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    background: #e0e0e0;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  @media (min-width: 600px) {
+    .header-text h1 {
+      font-size: 3em;
+    }
+  
+    .header-text h2 {
+      font-size: 2em;
+    }
+  }
+  
